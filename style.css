@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+header{
+    padding: 4rem;
+    background: lightgray
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+    align-items: center;
+}
+nav ul li:last-child{
+    background: black;
+    color: white;
+    padding: .8rem;
+}
+.corpo{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem;
+}
+aside{
+    border: solid;
+    height: 40vw;
+    flex-basis: 20%;
+    padding: 1rem;
+}
+main{
+    border: solid;
+    height: 40vw;
+    flex: 1;
+    padding: 1rem;
+}
+aside ul{
+    list-style: none;
+}
+
